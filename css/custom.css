@@ -1,0 +1,145 @@
+/*TOP navigation bar*/
+.top {
+	background: #f2f8f8
+}
+.top-nav {
+	text-align: right
+}
+.top-nav ul {
+	list-style: none
+}
+.top-nav ul li {
+	display: inline-block;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.top-nav ul li a {
+	color: #000;
+	padding: 0 0 0 25px;
+	position: relative;
+	text-decoration: none;
+	z-index: 99999;
+}
+.logo-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.navbar-default {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background:#f2f8f8;
+	border-bottom: 1px solid black
+}
+.navbar-header {
+	border: 0px solid red
+}
+#example-navbar-collapse ul {
+	text-align: center
+}
+#example-navbar-collapse ul li a {
+	color: #000;
+	display: inline-block;
+	/*font-size: 1.1em;*/
+	line-height: 2em;
+	outline: medium none;
+	padding: 0.9em 0.7em 0.05em;
+	position: relative;
+	text-decoration: none;
+	z-index: 10000;
+}
+.navbar-nav {
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+	float:none;
+}
+ul#centarized li a:hover {
+	color:#B82F5E
+}
+.mf-metafunctions {
+	position: relative;
+	top: 43px;
+}
+@media (max-width: 767px) {
+ .mf-metafunctions {
+ position: relative;
+ top: 0;
+}
+.dropdown-menu {
+clear:both;
+position: fixed
+}
+.caret {
+display:none
+}
+.icon-bar {
+background-color:#b82f5e!important
+}
+.navbar-toggle:hover {
+background-color: #f2f8f8!important;
+border:1px solid #b82f5e
+}
+.collapsed {
+border-color:#ddd
+}
+}
+#cart-block {
+	overflow: visible;
+	z-index: 999;
+	position: relative;
+}
+div.mini-cart-wrapper {
+	float: right;
+	padding: 9px 0 5px;
+}
+div.mini-cart-wrapper a {
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+.navbar-brand {
+	border: 0px solid red
+}
+.glyphicon {
+	font-size: 25px
+}
+.mf-metafunctions .col-md-1.text-left a .icon-home {
+	display: block;
+	font-size: 1.8em;
+	padding-top: 0.45em;
+	position: relative;
+	z-index: 999;
+}
+.glyphicon-home {
+	margin-top: 10px;
+	color:#000
+}
+.glyphicon-shopping-cart {
+	float: left
+}
+.glyphicon-search {
+	float:left!important
+}
+.top-buffer {
+	margin-top:20px;
+}
+/*Submenu*/
+.dropdown-menu {
+	z-index:999999;
+	background:#FFF;
+	border:1px solid #f2f8f8;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+ul#dropdown-menu li a {
+	border: 0 none;
+	color: #656565;
+	display: block;
+	float: none;
+	padding: 4px 0 2px;
+	text-align: center;
+	text-transform: none;
+}
